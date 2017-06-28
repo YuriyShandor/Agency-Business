@@ -134,7 +134,7 @@ header {
   .button {
     width: 170px;
     height: 36px;
-    border-radius: 3px;
+    border-radius: 5px;
     background: #de2b24;
     margin-left: 34px;
     display: flex;
@@ -145,5 +145,55 @@ header {
     color: #fff;
     text-decoration: none;
   }
+}
 
+#baner {
+  background: url(../img/baner.jpg) no-repeat center / cover;
+  height: 590px;
+  width: 100%;
+}
+
+.providing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 590px;
+  width: inherit;
+
+  .we-providing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 510px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 32px;
+      width: 330px;
+      height: 69px;
+      background: #f8cd53;
+      border-radius: 7px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
 }
