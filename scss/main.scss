@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: HelveticaNeue;
+  font-family: HelveticaNeue, Arial sans-serif;
   padding: 0;
   margin: 0;
   display: flex;
@@ -148,7 +148,7 @@ header {
 }
 
 #baner {
-  background: url(../img/baner.jpg) no-repeat center / cover;
+  background: url(../img/baner_1.jpg) no-repeat center / cover;
   height: 590px;
   width: 100%;
 }
@@ -195,5 +195,76 @@ header {
       text-transform: uppercase;
       text-decoration: none;
     }
+  }
+}
+
+@font-face {
+  font-family: Open Sans;
+  src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+.about-us {
+  height: 542px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    margin-top: 45px;
+
+    .column {
+      width: 240px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #424242;
+        margin: 20px 0;
+      }
+
+      span {
+        font-family: Open Sans;
+        font-size: 13.5px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 110px;
+  color: #424242;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  hr {
+    width: 47px;
+    height: 5px;
+    background: #424242;
+    margin-top: 15px;
   }
 }
