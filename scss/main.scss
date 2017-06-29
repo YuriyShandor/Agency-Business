@@ -462,3 +462,65 @@ header {
     }
   }
 }
+
+#red {
+  height: 867px;
+  width: 100%;
+  background: #de2b24;
+}
+
+.our-work {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+
+  .white {
+    color: #fff;
+  }
+
+  .title {
+    hr {
+      background: #fff;
+    }
+  }
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  margin-top: 45px;
+
+  .photo {
+    width: 255px;
+    height: 255px;
+  }
+
+  .project-name {
+    width: 255px;
+    height: 255px;
+    background: #f35e59;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0;
+      margin-top: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
