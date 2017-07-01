@@ -293,6 +293,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 
   .step {
     height: 236px;
@@ -521,6 +522,115 @@ header {
       font-weight: 700;
       color: #fff;
       margin: 0;
+    }
+  }
+}
+
+#blue {
+  height: 850px;
+  width: 100%;
+  background: #1287bf;
+}
+
+.contact {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    span {
+      font-size: 20px;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+}
+
+.input-fild {
+  height: 450px;
+  width: 685px;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+  transform: translateY(-45px);
+  display: flex;
+
+  .tangle {
+    position: absolute;
+    top: 0;
+    transform: translateY(-33px);
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(18px, -18px);
+  }
+
+  div {
+    width: 558px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+
+    span {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 400;
+      color: #828282;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input[type="text"] {
+      height: 50px;
+      width: 444px;
+      border: 1px solid #d8d8d8;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #b0b0b0;
+      padding-left: 20px;
+    }
+
+    input::placeholder {
+      font-size: 14px;
+      font-weight: 400;
+      color: #b0b0b0;
+    }
+
+    input[type="submit"] {
+      margin-top: 26px;
+      margin-bottom: 58px;
+      height: 46px;
+      width: 161px;
+      background: #de2b24;
+      border: 1px solid #de2b24;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
     }
   }
 }
