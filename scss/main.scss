@@ -71,6 +71,10 @@ header {
     display: flex;
     align-items: center;
   }
+
+  span:hover {
+    color: red;
+  }
 }
 
 .business {
@@ -203,6 +207,10 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       text-decoration: none;
+    }
+
+    a:hover{
+      opacity: 0.9;
     }
   }
 }
