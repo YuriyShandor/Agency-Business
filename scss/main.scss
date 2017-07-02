@@ -141,6 +141,7 @@ header {
   }
 
   .button {
+  a {
     width: 170px;
     height: 36px;
     border-radius: 5px;
@@ -155,8 +156,10 @@ header {
     text-decoration: none;
   }
 
-  .button:hover{
+  a:hover{
     opacity: 0.9;
+  }
+
   }
 }
 

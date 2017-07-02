@@ -1,26 +1,14 @@
-$(document).ready(function (){
-  $(".about").click(function (){
-    $('html, body').animate({
-      scrollTop: $(".about-us").offset().top
-      }, 700);
-  });
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
 
-  $(".our_approch").click(function (){
-    $('html, body').animate({
-      scrollTop: $("#our-approch").offset().top
-      }, 700);
-  });
+	    var target = this.hash;
+	    var $target = $(target);
 
-  $(".work").click(function (){
-    $('html, body').animate({
-      scrollTop: $("#red").offset().top
-      }, 700);
-  });
-
-  $(".consult").click(function (){
-    $('html, body').animate({
-      scrollTop: $("#blue").offset().top
-      }, 700);
-  });
-
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 700, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
 });
