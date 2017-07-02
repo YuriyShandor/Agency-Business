@@ -123,6 +123,11 @@ header {
         font-weight: 700;
         text-decoration: none;
         color: #424242;
+        cursor: pointer;
+      }
+
+      a:hover {
+        color: #de2b24;
       }
     }
 
@@ -144,6 +149,10 @@ header {
     font-weight: 700;
     color: #fff;
     text-decoration: none;
+  }
+
+  .button:hover{
+    opacity: 0.9;
   }
 }
 
@@ -214,6 +223,7 @@ header {
   .columns {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: inherit;
     margin-top: 45px;
 
@@ -236,6 +246,7 @@ header {
         font-size: 13.5px;
         font-weight: 400;
         text-align: center;
+        line-height: 1.5;
       }
     }
   }
@@ -334,6 +345,7 @@ header {
         font-size: 13.5px;
         font-weight: 400;
         color: #5c5c5c;
+        line-height: 1.5;
       }
     }
     .step-number{
@@ -402,6 +414,7 @@ header {
       display: flex;
       align-items: flex-end;
       flex-direction: column;
+      line-height: 1.5;
 
       h1 {
         margin: 0;
@@ -554,6 +567,7 @@ header {
     }
 
     span {
+      margin-top: 3px;
       font-size: 20px;
       font-weight: 300;
       color: #fff;
@@ -581,6 +595,7 @@ header {
     top: 0;
     right: 0;
     transform: translate(18px, -18px);
+    cursor: pointer;
   }
 
   div {
@@ -593,6 +608,7 @@ header {
       font-size: 15px;
       font-weight: 400;
       color: #828282;
+      line-height: 1.5;
     }
   }
 
@@ -611,6 +627,7 @@ header {
       font-weight: 400;
       color: #b0b0b0;
       padding-left: 20px;
+      outline-color: #343333;
     }
 
     input::placeholder {
@@ -631,7 +648,13 @@ header {
       font-size: 15px;
       font-weight: 700;
       color: #fff;
+      cursor: pointer;
     }
+
+    input[type="submit"]:hover {
+      opacity: 0.9;
+    }
+
   }
 }
 
@@ -671,6 +694,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
     }
 
     .icon:hover {
@@ -685,7 +709,7 @@ header {
     margin-top: 37px;
   }
 
-  .try {
+  form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -720,6 +744,11 @@ header {
       font-size: 17px;
       font-weight: 700;
       color: #fff;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      border-color: #de2b24;
     }
   }
 }
@@ -727,7 +756,7 @@ header {
 footer {
   width: 100%;
   height: 67px;
-  background: #515151;  
+  background: #515151;
 }
 
 .foot {
